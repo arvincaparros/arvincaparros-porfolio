@@ -64,7 +64,7 @@ function Hero() {
                 <div className="profile-container">
                   <div className="profile-background"></div>
                   <img
-                    src="/public/profile/profile.jpg"
+                    src="/img/profile.jpg"
                     alt="Arvin Caparros"
                     className="profile-image"
                   />

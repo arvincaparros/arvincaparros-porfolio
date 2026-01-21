@@ -2,28 +2,28 @@ import React from "react";
 
 const projects = [
   {
-    image: "/public/img/MHMS.png",
+    image: "/img/mhms.png",
     title: "Manahour Management System",
     description: "A full-featured system with real-time management, reporting, and analytics dashboard, email notifications, and approval workflows.",
     tech: ["C#", "Winform", "MS SQL Server", "Tableau"],
     featured: true,
   },
   {
-    image: "/public/img/JMRS.png",
+    image: "/img/jmrs.png",
     title: "Japanese Meal Reservation System",
     description: "System for advance meal reservations, admin management, and real-time monitoring of Japanese expats’ monthly deductions.",
     tech: ["C#", "ASP.Net Core", "Bootstrap", "PostgreSQL"],
     featured: true,
   },
   {
-    image: "/public/img/CMS.png",
+    image: "/img/cms.png",
     title: "Container Management System",
     description: "System for container truck parking monitoring, dashboard tracking, and process automation.",
     tech: ["C#", "ASP.Net Core", "Winform", "MS SQL Server"],
     featured: true,
   },
   {
-    image: "/public/img/PCS.png",
+    image: "/img/pcs.png",
     title: "Parts Control System",
     description: "Control system for parts tracking, workflow, email notifications and approval processes.",
     tech: ["C#", "ASP.Net Core", "Bootstrap", "PostgreSQL"],

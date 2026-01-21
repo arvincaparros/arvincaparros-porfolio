@@ -19,7 +19,7 @@ function About() {
               <div className="profile-header">
                 <div className="profile-image">
                   <img
-                    src="/public/profile/2x2 arvs.png"
+                    src="/img/2x2arvs.png"
                     alt="Profile"
                     className="img-fluid"
                   />
