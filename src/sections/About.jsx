@@ -19,7 +19,7 @@ function About() {
               <div className="profile-header">
                 <div className="profile-image">
                   <img
-                    src="/public/img/profile/profile-2.webp"
+                    src="/public/profile/2x2 arvs.png"
                     alt="Profile"
                     className="img-fluid"
                   />
@@ -96,7 +96,7 @@ function About() {
               </div>
 
               <div className="cta-section">
-                <a href="#" className="btn btn-primary">
+                <a href="/public/resume/CV_ARVIN_CAPARROS.pdf" className="btn btn-primary">
                   <BsDownload className="me-2" />
                   Download Resume
                 </a>

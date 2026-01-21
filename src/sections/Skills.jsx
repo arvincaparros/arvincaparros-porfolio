@@ -25,12 +25,12 @@ function Skills() {
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <div className="d-flex justify-content-center align-items-center">
                     <img
-                      src="/public/img/icons/html.png"
+                      src="/public/icons/html.png"
                       alt="HTML"
                       width="50"
                     />
                     <img
-                      src="/public/img/icons/css-3.png"
+                      src="/public/icons/css-3.png"
                       alt="CSS"
                       width="50"
                     />
@@ -45,7 +45,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/js.png"
+                    src="/public/icons/js.png"
                     alt="JavaScript"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -60,7 +60,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/jquery.png"
+                    src="/public/icons/jquery.png"
                     alt="jQuery"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -75,7 +75,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/bootstrap.png"
+                    src="/public/icons/bootstrap.png"
                     alt="Bootstrap"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -90,7 +90,7 @@ function Skills() {
               <div className="col-md-12">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/reactjs.png"
+                    src="/public/icons/reactjs.png"
                     alt="React"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -113,7 +113,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/c-sharp.png"
+                    src="/public/icons/c-sharp.png"
                     alt="C# ASP.NET Core MVC"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -128,7 +128,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/efcore.png"
+                    src="/public/icons/efcore.png"
                     alt="Entity Framework Core"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -143,7 +143,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/sql.png"
+                    src="/public/icons/sql.png"
                     alt="SQL"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -158,7 +158,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/api.png"
+                    src="/public/icons/api.png"
                     alt="REST API"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -173,7 +173,7 @@ function Skills() {
               <div className="col-md-12">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/img/icons/php.png"
+                    src="/public/icons/php.png"
                     alt="PHP"
                     className="mb-2 d-block mx-auto"
                     width="50"

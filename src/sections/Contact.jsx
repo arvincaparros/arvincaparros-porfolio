@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+console.log(emailjs);
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -19,19 +21,29 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setStatus("loading");
+  e.preventDefault();
+  setStatus("loading");
 
-    // Simulate sending (replace with your backend/email service later)
-    setTimeout(() => {
-      if (formData.name && formData.email && formData.message) {
-        setStatus("success");
-        setFormData({ name: "", email: "", subject: "", message: "" });
-      } else {
-        setStatus("error");
-      }
-    }, 1500);
-  };
+  emailjs.send(
+    "service_ni3q0rr",
+    "template_qr2drld",
+    {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    },
+    "oEe6LHzwpEhmFkF2z"
+  )
+  .then(() => {
+    setStatus("success");
+    setFormData({ name: "", email: "", subject: "", message: "" });
+  })
+  .catch(() => {
+    setStatus("error");
+  });
+};
+
 
   return (
     <section id="contact" className="contact section">
@@ -48,20 +60,8 @@ function Contact() {
             <div className="info-box">
               <h3>Contact Info</h3>
               <p>
-                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                nisi. Vestibulum ante ipsum primis.
+               Please feel free to reach out through any of the following channels.
               </p>
-
-              <div className="info-item">
-                <div className="icon-box">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content">
-                  <h4>Our Location</h4>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
-                </div>
-              </div>
 
               <div className="info-item">
                 <div className="icon-box">
@@ -69,8 +69,8 @@ function Contact() {
                 </div>
                 <div className="content">
                   <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <p>+63 948 7998 831</p>
+                  <p>+63 963 0168 963</p>
                 </div>
               </div>
 
@@ -80,8 +80,7 @@ function Contact() {
                 </div>
                 <div className="content">
                   <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <p>arvinmcaparros@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -92,8 +91,7 @@ function Contact() {
             <div className="contact-form">
               <h3>Get In Touch</h3>
               <p>
-                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                nisi. Vestibulum ante ipsum primis.
+                I’m always open to connecting! Please fill out the form below, and I’ll get back to you as soon as possible.
               </p>
 
               <form onSubmit={handleSubmit} className="php-email-form">
@@ -159,9 +157,10 @@ function Contact() {
                       </div>
                     )}
 
-                    <button type="submit" className="btn">
-                      Send Message
+                   <button type="submit" className="btn" disabled={status === "loading"}>
+                      {status === "loading" ? "Sending..." : "Send Message"}
                     </button>
+
                   </div>
                 </div>
               </form>

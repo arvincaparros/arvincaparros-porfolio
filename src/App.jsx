@@ -6,6 +6,7 @@ import About from './sections/About'
 import Skills from './sections/Skills'
 import Resume from './sections/Resume'
 import Portfolio from './sections/Portfolio'
+import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import ScrollTop from './ScrollTop'
 import Preloader from './Preloader'
@@ -27,7 +28,7 @@ function App() {
         <About/>
         <Skills/>
         <Resume/>
-        <Portfolio/>
+        <Projects/>
         <Contact/>
       </main>
 

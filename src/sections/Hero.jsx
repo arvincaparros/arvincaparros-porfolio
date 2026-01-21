@@ -48,7 +48,7 @@ function Hero() {
                 </p>
 
                 <div className="hero-actions">
-                  <a href="#portfolio" className="btn btn-primary">
+                  <a href="#projects" className="btn btn-primary">
                     View My Work
                   </a>
                   <div className="social-links">
@@ -64,7 +64,7 @@ function Hero() {
                 <div className="profile-container">
                   <div className="profile-background"></div>
                   <img
-                    src="/public/img/profile/profile-2.webp"
+                    src="/public/profile/profile.jpg"
                     alt="Arvin Caparros"
                     className="profile-image"
                   />
