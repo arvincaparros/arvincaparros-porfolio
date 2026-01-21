@@ -25,12 +25,12 @@ function Skills() {
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <div className="d-flex justify-content-center align-items-center">
                     <img
-                      src="/public/icons/html.png"
+                      src="/icons/html.png"
                       alt="HTML"
                       width="50"
                     />
                     <img
-                      src="/public/icons/css-3.png"
+                      src="/icons/css-3.png"
                       alt="CSS"
                       width="50"
                     />
@@ -45,7 +45,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/js.png"
+                    src="/icons/js.png"
                     alt="JavaScript"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -60,7 +60,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/jquery.png"
+                    src="/icons/jquery.png"
                     alt="jQuery"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -75,7 +75,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/bootstrap.png"
+                    src="/icons/bootstrap.png"
                     alt="Bootstrap"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -90,7 +90,7 @@ function Skills() {
               <div className="col-md-12">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/reactjs.png"
+                    src="/icons/reactjs.png"
                     alt="React"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -113,7 +113,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/c-sharp.png"
+                    src="/icons/c-sharp.png"
                     alt="C# ASP.NET Core MVC"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -128,7 +128,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/efcore.png"
+                    src="/icons/efcore.png"
                     alt="Entity Framework Core"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -143,7 +143,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/sql.png"
+                    src="/icons/sql.png"
                     alt="SQL"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -158,7 +158,7 @@ function Skills() {
               <div className="col-md-6">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/api.png"
+                    src="/icons/api.png"
                     alt="REST API"
                     className="mb-2 d-block mx-auto"
                     width="50"
@@ -173,7 +173,7 @@ function Skills() {
               <div className="col-md-12">
                 <div className="card text-center shadow-sm border-0 p-3 h-100">
                   <img
-                    src="/public/icons/php.png"
+                    src="/icons/php.png"
                     alt="PHP"
                     className="mb-2 d-block mx-auto"
                     width="50"

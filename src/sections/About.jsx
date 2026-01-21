@@ -94,9 +94,8 @@ function About() {
                   </div>
                 </div>
               </div>
-
               <div className="cta-section">
-                <a href="/public/resume/CV_ARVIN_CAPARROS.pdf" className="btn btn-primary">
+                <a href="/resume/CV_ARVIN_CAPARROS.pdf" className="btn btn-primary">
                   <BsDownload className="me-2" />
                   Download Resume
                 </a>
