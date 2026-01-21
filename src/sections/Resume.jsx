@@ -7,8 +7,7 @@ function Resume() {
       <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p>
-          Driven developer with skills in front-end and back-end, dedicated to
-          building efficient and user-focused applications.
+          Full-stack developer delivering efficient, scalable, and user-focused applications.
         </p>
       </div>
       {/* End Section Title */}
@@ -24,11 +23,10 @@ function Resume() {
             >
               <h3>Professional Summary</h3>
               <p>
-                Software developer with more than 3 years of experience in
+                Software developer with more than 4 years of experience in
                 designing, developing web and desktop applications. Proficient in
                 languages such as C#, JavaScript, and PHP, with hands-on
-                experience in Tableau for data visualization. Solving complex
-                technical problems, and delivering high-quality code. Passionate
+                experience in Tableau for data visualization. Passionate
                 about continuous learning and contributing to innovative software
                 solutions.
               </p>
@@ -36,7 +34,7 @@ function Resume() {
               <h3 className="mt-4">Contact Information</h3>
               <ul className="contact-info list-unstyled">
                 <li>
-                  <i className="bi bi-geo-alt"></i> San Pedro, Santo Tomas,
+                  <i className="bi bi-geo-alt"></i> Santa Maria, Santo Tomas,
                   Batangas
                 </li>
                 <li>
@@ -62,17 +60,17 @@ function Resume() {
                 <ul className="list-group list-group-flush border rounded">
                   <li className="list-group-item">
                     <strong>Front-End:</strong> HTML, CSS, JavaScript, jQuery,
-                    Bootstrap, React (Familiar)
+                    Bootstrap, React.js
                   </li>
                   <li className="list-group-item">
-                    <strong>Back-End:</strong> C# ASP.NET Core MVC, PHP (Basic)
+                    <strong>Back-End:</strong> C# ASP.NET Core MVC, PHP
                   </li>
                   <li className="list-group-item">
                     <strong>API Development & Integration:</strong> REST APIs,
                     JSON, Postman
                   </li>
                   <li className="list-group-item">
-                    <strong>Database:</strong> SQL Server, PostgreSQL, MySQL
+                    <strong>Database & Data Visualization:</strong> SQL Server, PostgreSQL, MySQL, Tableau
                   </li>
                   <li className="list-group-item">
                     <strong>Testing:</strong> Unit Testing, API Testing with
@@ -115,7 +113,7 @@ function Resume() {
                   <li>
                     Contribute to the enhancement and maintenance of existing
                     applications, including tasks such as database migration and
-                    performance tuning.
+                    performance optimization.
                   </li>
                   <li>
                     Develop and manage reliable, well-structured databases that

@@ -52,7 +52,7 @@ function Skills() {
                   />
                   <h5 className="text-dark">JavaScript</h5>
                   <p className="small text-muted">
-                    ES6+, DOM manipulation, async basics
+                    ES6+, DOM manipulation, asynchronous programming
                   </p>
                 </div>
               </div>
@@ -95,10 +95,11 @@ function Skills() {
                     className="mb-2 d-block mx-auto"
                     width="50"
                   />
-                  <h5 className="text-dark">React (Familiar)</h5>
+                  <h5 className="text-dark">React</h5>
                   <p className="small text-muted">
-                    Components, props, hooks — still learning
+                    Fundamental knowledge of components, props, and hooks; actively learning and building projects
                   </p>
+
                 </div>
               </div>
             </div>
@@ -120,7 +121,7 @@ function Skills() {
                   />
                   <h5 className="text-dark">C# ASP.NET Core MVC</h5>
                   <p className="small text-muted">
-                    MVC apps, REST APIs, SQL integration
+                    Building MVC applications, REST APIs, SQL database integration
                   </p>
                 </div>
               </div>
@@ -178,8 +179,10 @@ function Skills() {
                     className="mb-2 d-block mx-auto"
                     width="50"
                   />
-                  <h5 className="text-dark">PHP (Basic)</h5>
-                  <p className="small text-muted">CRUD & simple scripting</p>
+                  <h5 className="text-dark">PHP</h5>
+                  <p className="small text-muted">
+                    CRUD operations and server-side scripting
+                  </p>
                 </div>
               </div>
             </div>

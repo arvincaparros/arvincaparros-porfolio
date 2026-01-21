@@ -56,19 +56,18 @@ function About() {
             <div className="about-content">
               <div className="section-header">
                 <span className="badge-text">Get to Know Me</span>
-                <h2>Driven to Create Innovative Software Solutions</h2>
               </div>
 
               <div className="description">
                 <p>
-                  I’m a dedicated <strong>Software Developer</strong> with a passion for building practical and user-friendly applications. 
-                  With experience in <strong>ASP.NET, C#, SQL, and front-end technologies</strong>, I specialize in creating efficient systems 
-                  that solve real-world problems. I enjoy blending clean design with functional code to deliver impactful digital solutions. 
+                  I am a dedicated <strong>Software Developer</strong> experienced in building reliable, user-focused business applications.
+                  I specialize in <strong>C#, ASP.NET, SQL, and modern front-end technologies</strong>, creating systems that improve workflows,
+                  automate processes, and deliver practical, maintainable solutions.
                 </p>
 
                 <p>
-                  Beyond coding, I value collaboration, continuous learning, and transforming ideas into reality. Whether it’s 
-                  for research, enterprise use, or academic projects, I aim to deliver results that exceed expectations.
+                  Beyond coding, I value collaboration, continuous learning, and turning ideas into real-world solutions
+                  across enterprise systems, research projects, and capstone applications.
                 </p>
               </div>
 
