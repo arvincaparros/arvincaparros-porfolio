@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/project.css";
 
 const projects = [
   {
@@ -51,8 +52,7 @@ const Projects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="card-img-top rounded-top"
-                      style={{ height: "410px", objectFit: "cover" }}
+                      className="card-img-top rounded-top project-img"
                     />
                   )}
                 

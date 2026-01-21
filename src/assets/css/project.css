@@ -1,0 +1,18 @@
+.project-img {
+  height: 410px; /* default desktop */
+  object-fit: cover;
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+  .project-img {
+    height: 400px; /* tablets / small phones */
+  }
+}
+
+/* Extra small screens (<368px) */
+@media (max-width: 367px) {
+  .project-img {
+    height: 250px; /* tiny phones */
+  }
+}
