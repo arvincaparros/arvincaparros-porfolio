@@ -52,8 +52,8 @@ function Hero() {
                     View My Work
                   </a>
                   <div className="social-links">
-                    <a href="#"><i className="bi bi-github"></i></a>
-                    <a href="#"><i className="bi bi-linkedin"></i></a>
+                    {/* <a href="#"><i className="bi bi-github"></i></a> */}
+                    <a href="https://www.linkedin.com/in/arvin-caparros"><i className="bi bi-linkedin"></i></a>
                   </div>
                 </div>
               </div>
