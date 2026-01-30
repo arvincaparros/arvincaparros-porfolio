@@ -1,0 +1,10 @@
+/* Mobile first - start with smallest */
+.img-wrapper {
+  min-height: 350px; /* extra small phones */
+}
+
+.project-img {
+   width: 100%;
+   height: 100%;
+}
+
