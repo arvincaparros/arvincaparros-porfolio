@@ -191,7 +191,7 @@ const Projects = () => {
               </div>
 
               <div className="modal-body">
-                <p>{selectedProject.description}</p>
+                {/* <p>{selectedProject.description}</p> */}
 
                 <h6 className="mt-3">Key Features</h6>
                 <ul>
