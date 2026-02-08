@@ -22,11 +22,11 @@ function Resume() {
               data-aos-delay="100"
             >
               <h3>Professional Summary</h3>
-              <p>
-               Full-Stack Software Developer with a total of 4 years of experience building and maintaining internal business systems, with a strong foundation in desktop application development (C# / WinForms) and 1.5 years of full-stack web development using ASP.NET Core, SQL databases, and modern frontend technologies. Experienced in end-to-end development—from requirements gathering and backend logic to frontend implementation, deployment, and system support. Strong focus on process automation, data integrity, and scalable system design.
-              </p>
-
+                <p>
+                Full Stack Developer with 4 years of experience, starting with desktop and internal systems and transitioning to full-stack .NET web development. Skilled in .NET, ASP.NET Core, SQL, modern frontend technologies, dashboards, process automation, and Tableau development. 
+                </p>
               <h3 className="mt-4">Contact Information</h3>
+
               <ul className="contact-info list-unstyled">
                 <li>
                   <i className="bi bi-geo-alt"></i> Santa Maria, Santo Tomas,
@@ -70,6 +70,9 @@ function Resume() {
                   <li className="list-group-item">
                     <strong>Testing:</strong> Unit Testing, API Testing with
                     Postman, Debugging
+                  </li>
+                   <li className="list-group-item">
+                    <strong>Others:</strong> SignalR, Tableau, WordPress (CMS), AI-assisted development tools
                   </li>
                 </ul>
               </div>

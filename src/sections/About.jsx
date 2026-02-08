@@ -58,18 +58,29 @@ function About() {
                 <span className="badge-text">Get to Know Me</span>
               </div>
 
-              <div className="description">
+             <div className="description">
                 <p>
-                  I am a dedicated <strong>Software Developer</strong> experienced in building reliable, user-focused business applications.
-                  I specialize in <strong>C#, ASP.NET, SQL, and modern front-end technologies</strong>, creating systems that improve workflows,
-                  automate processes, and deliver practical, maintainable solutions.
+                  I am a dedicated <strong>Software Developer</strong> with experience building reliable,
+                  user-focused business applications. I specialize in
+                  <strong> C#, ASP.NET Core, SQL, and modern front-end technologies</strong>,
+                  developing systems that improve workflows, automate processes, and deliver
+                  practical, maintainable solutions.
                 </p>
 
                 <p>
-                  Beyond coding, I value collaboration, continuous learning, and turning ideas into real-world solutions
-                  across enterprise systems, research projects, and capstone applications.
+                  I have worked on <strong>internal enterprise systems, dashboards, and data-driven applications</strong>,
+                  collaborating closely with end users to translate real-world requirements into
+                  effective software. I value clean architecture, performance, and usability in
+                  every project I build.
+                </p>
+
+                <p>
+                  Beyond coding, I enjoy continuous learning, collaboration, and turning ideas
+                  into real-world solutions across <strong>enterprise systems, research projects,
+                  and capstone applications</strong>.
                 </p>
               </div>
+
 
               <div className="details-grid">
                 <div className="detail-row">
@@ -94,7 +105,7 @@ function About() {
                 </div>
               </div>
               <div className="cta-section">
-                <a href="/resume/CV_ARVIN_CAPARROS.pdf" className="btn btn-primary">
+                <a href="/resume/CV_CAPARROS, ARVIN M.pdf" className="btn btn-primary">
                   <BsDownload className="me-2" />
                   Download Resume
                 </a>
